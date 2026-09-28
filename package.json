@@ -9,7 +9,23 @@
     "export": "slidev export"
   },
   "devDependencies": {
-    "@slidev/cli": "latest",
+    "@slidev/cli": "^53.0.0",
     "@slidev/theme-default": "latest"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mackhendricks/webdroid-python101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mackhendricks/webdroid-python101/issues"
+  },
+  "homepage": "https://github.com/mackhendricks/webdroid-python101#readme",
+  "dependencies": {
+    "slidev-theme-the-unnamed": "^0.0.24"
   }
 }
