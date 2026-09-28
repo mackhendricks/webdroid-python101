@@ -1,5 +1,5 @@
 ---
-theme: default
+theme: the-unnamed
 title: Python 101 - From Zero to Functions
 titleTemplate: '%s'
 info: |
@@ -12,6 +12,11 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
+
+themeConfig:
+  aboutme-background: "#0F131E"
+  aboutme-nameColor: "#FFFFFF"
+  aboutme-color: "#FFFFFF"
 ---
 
 # Python 101
@@ -28,6 +33,21 @@ Hands-on beginner workshop • No local Python installation required
 Welcome everyone. Set expectations: this is a hands-on workshop, not a lecture marathon.
 Students will type and run code throughout the session.
 -->
+
+---
+layout: about-me
+
+helloMsg: What's Poppin!
+name: Mack Hendricks
+imageSrc: https://mackhendricks.com/assets/Mack_Hendricks_2026_1771528940761-CtDAzAiF.jpg
+position: left
+job: CEO, Flyball
+line1: flyball.co
+line2: mackhendricks.co
+social1: @machinemaker
+---
+
+
 
 ---
 layout: center
